@@ -1,6 +1,6 @@
 <div align="center"> 
 
- Hi I'm Clarence Lin
+ [![Typing SVG](https://readme-typing-svg.herokuapp.com?center=true&vCenter=true&lines=Hi+I'm+Clarence+Lin)](https://git.io/typing-svg)
 
  📖 Author of AWS CDK 完全學習手冊：打造雲端基礎架構程式碼 IaC (iT邦幫忙鐵人賽系列書) 
  
@@ -13,7 +13,7 @@
   
 [![linkedin]](https://www.linkedin.com/in/clarencetw/)
 [![blog]](https://blog.clarence.tw/)
-[![cloudflare]](https://blog.clarence.tw/)
+[![cloudflare]](https://clarence.tw/)
 [![twitter]](https://twitter.com/Clarence_Lin/)
 [![facebook]](https://www.facebook.com/ClarenceTaiwan/)
 [![hits]](https://github.com/clarencetw)
