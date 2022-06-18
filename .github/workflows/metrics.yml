@@ -35,7 +35,6 @@ jobs:
           plugin_notable: yes
           plugin_notable_from: organization
           plugin_notable_types: commit
-          plugin_repositories: yes
           plugin_rss: yes
           plugin_rss_limit: 4
           plugin_rss_source: https://blog.clarence.tw/rss
