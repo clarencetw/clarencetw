@@ -19,7 +19,7 @@
 [![hits]](https://github.com/clarencetw)
 
 </br>
-  
-![Metrics](https://metrics.lecoq.io/clarencetw?template=classic&achievements=1&notable=1&languages=1&base.indepth=false&base.hireable=false&languages.ignored=html%2C%20css%2C&languages.limit=8&languages.threshold=0%25&languages.other=false&languages.colors=github&languages.sections=most-used&languages.indepth=false&languages.analysis.timeout=15&languages.categories=markup%2C%20programming&languages.recent.categories=markup%2C%20programming&languages.recent.load=300&languages.recent.days=14&achievements.threshold=C&achievements.secrets=true&achievements.display=compact&achievements.limit=0&notable.from=organization&notable.repositories=false&notable.indepth=false&notable.types=commit&config.timezone=Asia%2FTaipei&config.display=large)
+
+![Metrics](/github-metrics.svg)
 
 </div>
