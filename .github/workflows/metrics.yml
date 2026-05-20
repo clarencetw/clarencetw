@@ -12,6 +12,8 @@ jobs:
     permissions:
       contents: write
     steps:
+      # Intentionally using @latest to auto-upgrade metrics output.
+      # For stricter supply-chain security, pin this action to a full commit SHA instead.
       - uses: lowlighter/metrics@latest
         with:
           # Your GitHub token
@@ -25,6 +27,7 @@ jobs:
           token: ${{ secrets.METRICS_TOKEN }}
 
           # Options
+          filename: github-metrics.svg
           user: clarencetw
           template: classic
           base: header, activity, community, repositories, metadata
@@ -47,6 +50,7 @@ jobs:
           plugin_languages_sections: most-used
           plugin_languages_threshold: 0%
           plugin_lines: yes
+          plugin_lines_delay: 30
           plugin_notable: yes
           plugin_notable_from: organization
           plugin_notable_types: commit
