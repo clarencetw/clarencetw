@@ -1,0 +1,77 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="360" viewBox="0 0 1200 360" role="img" aria-labelledby="title desc">
+  <title id="title">Clarence Lin operating loop</title>
+  <desc id="desc">A bilingual profile visual showing the delivery loop from needs, architecture, automation, delivery, operations, and feedback.</desc>
+  <defs>
+    <linearGradient id="panel" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#F8FAFC"/>
+      <stop offset="1" stop-color="#EEF6F8"/>
+    </linearGradient>
+    <linearGradient id="line" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#0F766E"/>
+      <stop offset="0.36" stop-color="#0F5C8C"/>
+      <stop offset="0.7" stop-color="#B45309"/>
+      <stop offset="1" stop-color="#64748B"/>
+    </linearGradient>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="10" stdDeviation="14" flood-color="#0F172A" flood-opacity="0.13"/>
+    </filter>
+    <style>
+      .label { fill: #0F172A; font: 700 22px -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; }
+      .zh { fill: #475569; font: 500 16px -apple-system, BlinkMacSystemFont, "PingFang TC", "Noto Sans CJK TC", sans-serif; }
+      .micro { fill: #64748B; font: 600 13px ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; letter-spacing: 1.4px; }
+      .small { fill: #334155; font: 600 14px -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; }
+    </style>
+  </defs>
+
+  <rect x="24" y="24" width="1152" height="312" rx="28" fill="url(#panel)" stroke="#CBD5E1"/>
+  <path d="M150 178 C260 76 392 76 502 178 C612 280 746 280 856 178 C924 114 1016 102 1092 138" fill="none" stroke="url(#line)" stroke-width="14" stroke-linecap="round"/>
+  <path d="M1080 116 L1120 145 L1074 162" fill="none" stroke="#64748B" stroke-width="12" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <g filter="url(#shadow)">
+    <rect x="70" y="90" width="170" height="110" rx="18" fill="#FFFFFF" stroke="#D8E2EA"/>
+    <text x="96" y="132" class="micro">01 / START</text>
+    <text x="96" y="160" class="label">Need</text>
+    <text x="96" y="184" class="zh">釐清需求</text>
+  </g>
+
+  <g filter="url(#shadow)">
+    <rect x="268" y="48" width="186" height="116" rx="18" fill="#FFFFFF" stroke="#D8E2EA"/>
+    <text x="294" y="92" class="micro">02 / DESIGN</text>
+    <text x="294" y="120" class="label">Architecture</text>
+    <text x="294" y="144" class="zh">可維護架構</text>
+  </g>
+
+  <g filter="url(#shadow)">
+    <rect x="500" y="92" width="196" height="118" rx="18" fill="#FFFFFF" stroke="#D8E2EA"/>
+    <text x="526" y="136" class="micro">03 / BUILD</text>
+    <text x="526" y="164" class="label">AI &amp; Automation</text>
+    <text x="526" y="188" class="zh">LLM、CDK 與 CI/CD</text>
+  </g>
+
+  <g filter="url(#shadow)">
+    <rect x="716" y="204" width="174" height="110" rx="18" fill="#FFFFFF" stroke="#D8E2EA"/>
+    <text x="742" y="246" class="micro">04 / SHIP</text>
+    <text x="742" y="274" class="label">Delivery</text>
+    <text x="742" y="298" class="zh">可交付環境</text>
+  </g>
+
+  <g filter="url(#shadow)">
+    <rect x="908" y="104" width="190" height="118" rx="18" fill="#FFFFFF" stroke="#D8E2EA"/>
+    <text x="934" y="148" class="micro">05 / RUN</text>
+    <text x="934" y="176" class="label">Operations</text>
+    <text x="934" y="200" class="zh">監控、回復、交接</text>
+  </g>
+
+  <g>
+    <rect x="92" y="238" width="386" height="46" rx="23" fill="#0F172A"/>
+    <text x="116" y="267" fill="#FFFFFF" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="16" font-weight="650">Production evidence shapes the next design.</text>
+  </g>
+  <g>
+    <rect x="924" y="230" width="160" height="28" rx="14" fill="#FFFFFF" stroke="#D8E2EA"/>
+    <rect x="924" y="264" width="140" height="28" rx="14" fill="#FFFFFF" stroke="#D8E2EA"/>
+    <rect x="924" y="298" width="150" height="28" rx="14" fill="#FFFFFF" stroke="#D8E2EA"/>
+    <text x="944" y="249" class="small">repeatable systems</text>
+    <text x="944" y="283" class="small">clear handover</text>
+    <text x="944" y="317" class="small">operable defaults</text>
+  </g>
+</svg>
